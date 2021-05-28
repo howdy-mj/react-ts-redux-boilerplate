@@ -1,0 +1,14 @@
+{
+  "extends": ["plugin:prettier/recommended", "plugin:react-hooks/recommended"],
+  "plugins": ["react", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "react/jsx-uses-vars": "error"
+  },
+  "ignorePatterns": ["*.config.js"]
+}
